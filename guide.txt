@@ -1,0 +1,14 @@
+1. First we have to do setup for redis to use it.
+2. For setup visit this https://docs.microsoft.com/en-us/windows/wsl/install 
+3. Actually we have to run this in powershell with admin access [wsl --install] 
+4. To see a list of distros available [wsl --list --online]
+5. We have to install any one distros say (ubuntu) [wsl --install -d <DistroName>]
+6. run this to launch [wsl.exe]
+7. Some common command related to redis after switching to wsl are following 
+
+    [redis-server]
+    [redis-cli]
+
+    In redis-cli run these 
+
+    [keys *]
